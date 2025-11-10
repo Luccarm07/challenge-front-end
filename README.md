@@ -330,12 +330,10 @@ pnpm deploy
 
 ## Membros da Equipe
 
-| Nome | RM | Turma | Função | Email |
+| Nome | RM | Turma| Email |
 |------|-----|-------|--------|-------|
-| Lucas Carmo | 551234 | 2TDSA | Full Stack Developer | lucas.carmo@fiap.com.br |
-| João Silva | 551235 | 2TDSA | Frontend Developer | joao.silva@fiap.com.br |
-| Maria Santos | 551236 | 2TDSA | UX/UI Designer | maria.santos@fiap.com.br |
-| Pedro Oliveira | 551237 | 2TDSA | QA Engineer | pedro.oliveira@fiap.com.br |
+| Lucca | 551234 | 1tdspx |  rm562027@fiap.com.br |
+| Pedro | 551235 | 1tdspx |  rm562027@fiap.com.br |
 
 ---
 
