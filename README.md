@@ -4,9 +4,7 @@
 
 **Disciplina:** Front-End Design Engineering  
 **Sprint:** Sprint 04  
-**Instituição:** FIAP - Faculdade de Informática e Administração Paulista  
-**Período:** 4º Semestre  
-**Ano:** 2024
+**Instituição:** FIAP 
 
 ---
 
@@ -36,14 +34,14 @@ O projeto foi desenvolvido seguindo os princípios de **Front-End Design Enginee
 
 ### Backend (Integração)
 - **API Java** - Desenvolvida com Domain Drive Design
-- **Banco de Dados Relacional** - MySQL/TiDB
+- **Banco de Dados Relacional** - Oracle
 - **Endpoints REST** - Para CRUD de consultas, pacientes e médicos
 
 ### Ferramentas de Desenvolvimento
 - **Node.js 22** - Runtime JavaScript
 - **pnpm** - Gerenciador de pacotes rápido
 - **Git/GitHub** - Versionamento de código
-- **Vercel** - Plataforma de deploy
+
 
 ---
 
@@ -260,71 +258,12 @@ VITE_APP_TITLE=Aura Clinic
 VITE_APP_LOGO=/logo.svg
 ```
 
----
 
-## Scripts Disponíveis
 
-```bash
-# Desenvolvimento
-pnpm dev              # Inicia servidor de desenvolvimento
-
-# Build
-pnpm build            # Compila para produção
-pnpm preview          # Preview da build de produção
-
-# Testes e Qualidade
-pnpm lint             # Verifica erros de linting
-pnpm type-check       # Verifica tipos TypeScript
-
-# Banco de Dados
-pnpm db:push          # Sincroniza schema com banco
-pnpm db:studio        # Abre Drizzle Studio
-
-# Deploy
-pnpm deploy           # Deploy para Vercel
-```
-
----
-
-## Versionamento no GitHub
-
-O projeto utiliza Git e GitHub para versionamento com os seguintes commits:
-
-1. **Inicialização do projeto** - Setup inicial com React, Vite e TypeScript
-2. **Configuração de rotas** - Implementação do Wouter e rotas principais
-3. **Criação de páginas** - Implementação de Home, Integrantes, Sobre, FAQ, Contato
-4. **Tipagem TypeScript** - Union Types, Intersection Types e Interfaces
-5. **Integração de API** - Funções de consumo da API com retry e tratamento de erros
-6. **Estilização com TailwindCSS** - Aplicação de estilos responsivos
-7. **Componentes reutilizáveis** - Criação de componentes com shadcn/ui
-8. **Formulário de contato** - Integração com API de contato
-9. **Responsividade** - Testes e ajustes para todos os breakpoints
-10. **Otimizações** - Performance, acessibilidade e SEO
-11. **Documentação** - README.md e comentários no código
-12. **Testes** - Testes unitários e de integração
-13. **Build e deploy** - Configuração para Vercel
-14. **Ajustes finais** - Correções e melhorias
-15. **Release v1.0.0** - Versão final para entrega
 
 **Link do GitHub:** [https://github.com/Luccarm07/CHALLENGE_JAVA](https://github.com/Luccarm07/CHALLENGE_JAVA)
 
 ---
-
-## Deploy
-
-### Vercel
-
-O projeto está configurado para deploy automático no Vercel:
-
-```bash
-# Deploy manual
-pnpm deploy
-
-# Deploy automático ao fazer push para main
-# (Configurado no Vercel)
-```
-
-**URL de Deploy:** [https://aura-clinic-frontend.vercel.app](https://aura-clinic-frontend.vercel.app)
 
 ---
 
@@ -371,85 +310,8 @@ aura-clinic-frontend/
 └── README.md                # Este arquivo
 ```
 
----
+--
 
-## Vídeo de Demonstração
-
-Um vídeo de até 3 minutos foi gravado demonstrando:
-- ✅ Recursos do projeto
-- ✅ Telas e layouts
-- ✅ Navegação entre páginas
-- ✅ Integração com API
-- ✅ Responsividade em diferentes dispositivos
-- ✅ Funcionalidades principais
-
-**Link do Vídeo:** [YouTube](https://www.youtube.com)
-
----
-
-## Requisitos Atendidos
-
-### Critérios de Avaliação (100 pontos)
-
-1. **Construção do Projeto (20 pontos)** ✅
-   - Rotas estáticas e dinâmicas com Vite
-   - Navegação fluida e intuitiva
-   - Redirecionamentos com feedbacks
-   - Parâmetros de rota
-
-2. **Estilização e Responsividade (15 pontos)** ✅
-   - TailwindCSS para toda estilização
-   - Responsividade em XS, SM, MD, LG, XL
-   - Adaptabilidade e funcionalidade em todos os dispositivos
-
-3. **Deploy no Vercel (10 pontos)** ✅
-   - URL funcional e acessível
-   - Deploy bem-sucedido
-   - README.md com informações do projeto
-
-4. **Integração de APIs (30 pontos)** ✅
-   - Consumo correto de endpoints
-   - Manipulação de dados
-   - Tratamento de erros
-
-5. **Versionamento no GitHub (10 pontos)** ✅
-   - Repositório criado
-   - Link enviado
-   - Mínimo 5 commits significativos
-   - Participação de todos os integrantes
-
-6. **README.md (10 pontos)** ✅
-   - Informações pertinentes
-   - Tecnologias utilizadas
-   - Integrantes com Nome, RM, Turma
-   - Imagens e ícones do projeto
-   - Estrutura de pastas
-   - Link do GitHub
-   - Link do Vídeo do YouTube
-
-### Penalidades Evitadas
-
-- ✅ Arquivos maiores que 50 MB
-- ✅ Páginas obrigatórias presentes
-- ✅ Página de integrantes com informações completas
-- ✅ Frameworks proibidos não utilizados
-- ✅ Entrega com arquivo ZIP contendo repositório completo
-- ✅ README.md entregue
-- ✅ API integrada
-- ✅ GitHub link presente
-- ✅ Vídeo de até 3 minutos
-
----
-
-## Contato e Suporte
-
-Para dúvidas ou sugestões sobre o projeto:
-
-- **Email:** contato@auraclinic.com.br
-- **Telefone:** (11) 3000-0000
-- **GitHub Issues:** [Issues](https://github.com/Luccarm07/CHALLENGE_JAVA/issues)
-
----
 
 ## Licença
 
@@ -464,5 +326,4 @@ Agradecemos à FIAP pela oportunidade de desenvolver este projeto e aos professo
 ---
 
 **Versão:** 1.0.0  
-**Data de Conclusão:** Novembro de 2024  
-**Status:** Completo ✅
+**Data de Conclusão:** Novembro de 2025 
