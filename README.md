@@ -209,7 +209,7 @@ aura-clinic-frontend/
 ## Integração com Disciplinas
 
 ### Building Relational Database
-- Integração com banco de dados relacional (MySQL/TiDB)
+- Integração com banco de dados relacional (Oracle)
 - Modelos de dados: Usuários, Consultas, Pacientes, Médicos
 - Relacionamentos entre tabelas
 
