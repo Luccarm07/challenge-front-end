@@ -330,8 +330,6 @@ pnpm deploy
 
 ## Membros da Equipe
 
-| Nome | RM | Turma| Email |
-|------|-----|-------|--------|-------|
 | Lucca | 551234 | 1tdspx |  rm562027@fiap.com.br |
 | Pedro | 551235 | 1tdspx |  rm562027@fiap.com.br |
 
